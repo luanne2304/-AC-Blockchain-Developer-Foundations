@@ -1,0 +1,12 @@
+
+pragma solidity ^0.8.0;
+
+contract Profile {
+    string public name;
+    uint public age;
+
+    function setProfile(string calldata _name, uint _age) external  {
+        name = _name;
+        age = _age;
+    }
+}
